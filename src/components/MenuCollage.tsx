@@ -6,10 +6,10 @@ export function MenuCollage() {
   const items = [
     { id: 'chocolate-cake', title: 'Signature Cakes', span: 'md:col-span-2 md:row-span-2' },
     { id: 'aloo-burger', title: 'Gourmet Burgers', span: 'col-span-1' },
-    { id: 'masala-latte', title: 'Artisan Coffee', span: 'col-span-1' },
-    { id: 'croissant-classic', title: 'French Pastries', span: 'col-span-1' },
+    { id: 'glazed-donut', title: 'Fresh Donuts', span: 'col-span-1' },
+    { id: 'veg-puff', title: 'Golden Puffs', span: 'col-span-1' },
     { id: 'fudge-shake', title: 'Thick Shakes', span: 'col-span-1' },
-    { id: 'choco-cookies', title: 'Craft Cookies', span: 'md:col-span-2' },
+    { id: 'bakery-shelves', title: 'Artisan Breads', span: 'md:col-span-2' },
   ];
 
   return (
@@ -44,7 +44,7 @@ export function MenuCollage() {
                   </div>
                 </div>
                 <div className="absolute top-6 right-6 bg-white/20 backdrop-blur-md rounded-full px-4 py-1 text-white text-xs font-medium border border-white/20">
-                  {item.title.split(' ')[1]}
+                  {item.title.split(' ').pop()}
                 </div>
               </div>
             );

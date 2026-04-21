@@ -51,6 +51,33 @@ export const PRODUCTS: Product[] = [
     hint: 'croissant'
   },
   {
+    id: 'p10',
+    name: 'Assorted Glazed Donuts',
+    description: 'Pack of 4 soft, melt-in-your-mouth donuts with classic sugar and chocolate glaze.',
+    price: 220.00,
+    category: 'Pastries',
+    image: getPlaceholder('glazed-donut')?.imageUrl || '',
+    hint: 'glazed donuts'
+  },
+  {
+    id: 'p11',
+    name: 'Crispy Veggie Puffs',
+    description: 'Traditional bakery style puffs with a spicy vegetable filling and perfectly flaky crust.',
+    price: 45.00,
+    category: 'Pastries',
+    image: getPlaceholder('veg-puff')?.imageUrl || '',
+    hint: 'savory puff'
+  },
+  {
+    id: 'p12',
+    name: 'Classic Club Sandwich',
+    description: 'Triple-decker sandwich with fresh lettuce, tomatoes, and house-made dressing. A Model Town lunchtime legend.',
+    price: 160.00,
+    category: 'Subs',
+    image: getPlaceholder('club-sandwich')?.imageUrl || '',
+    hint: 'club sandwich'
+  },
+  {
     id: 'p6',
     name: 'Masala Artisan Latte',
     description: 'A local twist! Bold espresso with steamed milk and a hint of Punjabi chai spices.',

@@ -4,85 +4,109 @@
     {
       "id": "hero-bakery",
       "description": "Warm rustic bakery interior in Jalandhar",
-      "imageUrl": "https://picsum.photos/seed/bakery1/1200/600",
+      "imageUrl": "https://picsum.photos/seed/bakery_int_1/1200/600",
       "imageHint": "bakery interior"
     },
     {
       "id": "bakery-exterior",
       "description": "Charming Crumbs N Subs shop front in Model Town",
-      "imageUrl": "https://picsum.photos/seed/shop/1200/600",
+      "imageUrl": "https://picsum.photos/seed/shop_ext/1200/600",
       "imageHint": "bakery storefront"
+    },
+    {
+      "id": "bakery-shelves",
+      "description": "Artisan bread display on wooden shelves",
+      "imageUrl": "https://picsum.photos/seed/shelves/800/600",
+      "imageHint": "bakery shelves"
     },
     {
       "id": "paneer-sub",
       "description": "Spicy Paneer Tikka Sub with fresh veggies",
-      "imageUrl": "https://picsum.photos/seed/paneer/600/400",
+      "imageUrl": "https://picsum.photos/seed/paneer_sub/600/400",
       "imageHint": "paneer sandwich"
     },
     {
       "id": "chocolate-cake",
       "description": "Rich Belgian Chocolate Birthday Cake",
-      "imageUrl": "https://picsum.photos/seed/cake/600/400",
+      "imageUrl": "https://picsum.photos/seed/choco_cake/600/400",
       "imageHint": "chocolate cake"
     },
     {
       "id": "aloo-burger",
       "description": "Gourmet Aloo Tikki Burger with artisan bun",
-      "imageUrl": "https://picsum.photos/seed/burger/600/400",
+      "imageUrl": "https://picsum.photos/seed/aloo_burger/600/400",
       "imageHint": "gourmet burger"
     },
     {
       "id": "red-velvet",
       "description": "Red Velvet Anniversary Heart Cake",
-      "imageUrl": "https://picsum.photos/seed/velvet/600/400",
+      "imageUrl": "https://picsum.photos/seed/red_velvet/600/400",
       "imageHint": "red velvet"
     },
     {
       "id": "croissant-classic",
       "description": "Flaky golden Butter Croissants",
-      "imageUrl": "https://picsum.photos/seed/croissant/600/400",
+      "imageUrl": "https://picsum.photos/seed/croissant_1/600/400",
       "imageHint": "croissant pastry"
     },
     {
       "id": "masala-latte",
       "description": "Artisan Masala Latte with Punjabi spices",
-      "imageUrl": "https://picsum.photos/seed/latte/600/400",
+      "imageUrl": "https://picsum.photos/seed/masala_latte/600/400",
       "imageHint": "coffee latte"
     },
     {
       "id": "choco-cookies",
       "description": "Soft-baked Choco-Chip Sea Salt Cookies",
-      "imageUrl": "https://picsum.photos/seed/cookies/600/400",
+      "imageUrl": "https://picsum.photos/seed/cookies_set/600/400",
       "imageHint": "chocolate cookies"
     },
     {
       "id": "fudge-shake",
       "description": "Double Chocolate Fudge Milkshake",
-      "imageUrl": "https://picsum.photos/seed/shake/600/400",
+      "imageUrl": "https://picsum.photos/seed/shake_choco/600/400",
       "imageHint": "chocolate milkshake"
     },
     {
       "id": "blueberry-cheesecake",
       "description": "Velvety Blueberry Cheesecake Slice",
-      "imageUrl": "https://picsum.photos/seed/cheesecake/600/400",
+      "imageUrl": "https://picsum.photos/seed/cheesecake_blue/600/400",
       "imageHint": "blueberry cheesecake"
+    },
+    {
+      "id": "glazed-donut",
+      "description": "Assorted fresh glazed donuts",
+      "imageUrl": "https://picsum.photos/seed/donuts/600/400",
+      "imageHint": "glazed donuts"
+    },
+    {
+      "id": "veg-puff",
+      "description": "Crispy golden vegetable puffs",
+      "imageUrl": "https://picsum.photos/seed/puff/600/400",
+      "imageHint": "savory puff"
+    },
+    {
+      "id": "club-sandwich",
+      "description": "Gourmet multi-layered club sandwich",
+      "imageUrl": "https://picsum.photos/seed/sandwich/600/400",
+      "imageHint": "club sandwich"
     },
     {
       "id": "blog-trends",
       "description": "Cake trends 2024 showcase",
-      "imageUrl": "https://picsum.photos/seed/blog1/600/400",
+      "imageUrl": "https://picsum.photos/seed/blog_cakes/600/400",
       "imageHint": "bakery trends"
     },
     {
       "id": "blog-bread",
       "description": "Behind the scenes of bread fermentation",
-      "imageUrl": "https://picsum.photos/seed/blog2/600/400",
+      "imageUrl": "https://picsum.photos/seed/blog_bread/600/400",
       "imageHint": "artisan bread"
     },
     {
       "id": "blog-bulk",
       "description": "Bulk event catering preparation",
-      "imageUrl": "https://picsum.photos/seed/blog3/600/400",
+      "imageUrl": "https://picsum.photos/seed/blog_catering/600/400",
       "imageHint": "event catering"
     }
   ]
