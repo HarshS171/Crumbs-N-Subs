@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from 'next/image';
@@ -23,14 +22,16 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <div className="group relative bg-card rounded-[2rem] overflow-hidden border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500">
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
-          data-ai-hint={product.hint}
-        />
+      <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+        {product.image && (
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            data-ai-hint={product.hint}
+          />
+        )}
         <Badge className="absolute top-4 left-4 bg-background/90 backdrop-blur-sm text-primary hover:bg-background border-none font-bold py-1 px-3">
           {product.category}
         </Badge>

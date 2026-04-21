@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -28,15 +27,17 @@ export function MenuCollage() {
             return (
               <div 
                 key={index} 
-                className={`relative group overflow-hidden rounded-[2rem] border border-border/50 ${item.span}`}
+                className={`relative group overflow-hidden rounded-[2rem] border border-border/50 ${item.span} bg-muted`}
               >
-                <Image
-                  src={img?.imageUrl || ''}
-                  alt={item.title}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  data-ai-hint={img?.imageHint}
-                />
+                {img?.imageUrl && (
+                  <Image
+                    src={img.imageUrl}
+                    alt={item.title}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    data-ai-hint={img.imageHint}
+                  />
+                )}
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                   <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                     <h3 className="text-white text-2xl font-headline font-bold">{item.title}</h3>

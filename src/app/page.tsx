@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
@@ -14,22 +13,24 @@ import { ArrowRight, Sparkles, Heart, PartyPopper, Users, GraduationCap } from '
 
 export default function Home() {
   const featuredProducts = PRODUCTS.slice(0, 3);
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-bakery')?.imageUrl || '';
+  const heroImgData = PlaceHolderImages.find(img => img.id === 'hero-bakery');
 
   return (
     <>
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
-          <Image
-            src={heroImage}
-            alt="Crumbs N Subs Jalandhar Bakery"
-            fill
-            className="object-cover brightness-[0.45] transition-all duration-1000"
-            priority
-            data-ai-hint="bakery interior"
-          />
+        <section className="relative h-[85vh] flex items-center justify-center overflow-hidden bg-primary/20">
+          {heroImgData?.imageUrl && (
+            <Image
+              src={heroImgData.imageUrl}
+              alt="Crumbs N Subs Jalandhar Bakery"
+              fill
+              className="object-cover brightness-[0.45] transition-all duration-1000"
+              priority
+              data-ai-hint={heroImgData.imageHint}
+            />
+          )}
           <div className="relative z-10 text-center px-4 max-w-5xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-md px-4 py-2 rounded-full text-accent-foreground border border-accent/30 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <Sparkles className="h-4 w-4" />
