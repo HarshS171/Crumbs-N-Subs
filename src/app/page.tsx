@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from 'next/image';
@@ -11,6 +10,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { MenuCollage } from '@/components/MenuCollage';
 import { PRODUCTS } from '@/lib/data';
 import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { 
   ArrowRight, 
