@@ -9,7 +9,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { PRODUCTS } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles, Heart, PartyPopper, Users, GraduationCap } from 'lucide-react';
 
 export default function Home() {
   const featuredProducts = PRODUCTS.slice(0, 3);
@@ -20,33 +20,69 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
           <Image
             src={heroImage}
-            alt="Crumbs N Subs Interior"
+            alt="Crumbs N Subs Jalandhar"
             fill
-            className="object-cover brightness-[0.6]"
+            className="object-cover brightness-[0.55]"
             priority
             data-ai-hint="bakery interior"
           />
-          <div className="relative z-10 text-center px-4 max-w-4xl mx-auto space-y-6">
+          <div className="relative z-10 text-center px-4 max-w-5xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-md px-4 py-2 rounded-full text-accent-foreground border border-accent/30 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <Sparkles className="h-4 w-4" />
-              <span className="text-sm font-medium uppercase tracking-widest">Proudly Punjab</span>
+              <span className="text-sm font-medium uppercase tracking-widest text-white">Jalandhar's Artisan Hub</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-headline font-bold text-white tracking-tight leading-none animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-200">
-              Crumbs N Subs: <br /><span className="text-accent">Fresh Bakes, Bold Subs.</span>
+            <h1 className="text-5xl md:text-8xl font-headline font-bold text-white tracking-tight leading-none animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-200">
+              Crumbs N Subs: <br /><span className="text-accent">Made for Jalandhar.</span>
             </h1>
-            <p className="text-lg md:text-xl text-white/80 font-medium max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-              Jalandhar's favorite destination for artisan bread and gourmet sandwiches, crafted with local love.
+            <p className="text-lg md:text-2xl text-white/90 font-medium max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
+              From birthday cakes for the family to affordable snacks for students, we bake moments that matter.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-600">
-              <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 h-14 text-lg">
+              <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-10 h-14 text-lg font-bold shadow-xl transition-all hover:scale-105">
                 <Link href="/shop">Order Online</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10 rounded-full px-8 h-14 text-lg backdrop-blur-sm">
-                <Link href="/about">Our Story</Link>
+              <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10 rounded-full px-10 h-14 text-lg backdrop-blur-sm">
+                <Link href="/about">Bulk Event Orders</Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Audience Segments Section */}
+        <section className="py-20 bg-secondary/10">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="bg-background p-8 rounded-3xl border border-border/50 text-center space-y-4 shadow-sm hover:shadow-md transition-shadow">
+                <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto text-primary">
+                  <GraduationCap className="h-8 w-8" />
+                </div>
+                <h3 className="text-xl font-headline font-bold">Student Specials</h3>
+                <p className="text-muted-foreground text-sm">Deliciously affordable subs and snacks for your study breaks.</p>
+              </div>
+              <div className="bg-background p-8 rounded-3xl border border-border/50 text-center space-y-4 shadow-sm hover:shadow-md transition-shadow">
+                <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto text-primary">
+                  <PartyPopper className="h-8 w-8" />
+                </div>
+                <h3 className="text-xl font-headline font-bold">Family Birthdays</h3>
+                <p className="text-muted-foreground text-sm">Customized cakes that make family celebrations unforgettable.</p>
+              </div>
+              <div className="bg-background p-8 rounded-3xl border border-border/50 text-center space-y-4 shadow-sm hover:shadow-md transition-shadow">
+                <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto text-primary">
+                  <Heart className="h-8 w-8" />
+                </div>
+                <h3 className="text-xl font-headline font-bold">Anniversary Glow</h3>
+                <p className="text-muted-foreground text-sm">Romantic Red Velvet and specialty cakes for your milestones.</p>
+              </div>
+              <div className="bg-background p-8 rounded-3xl border border-border/50 text-center space-y-4 shadow-sm hover:shadow-md transition-shadow">
+                <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto text-primary">
+                  <Users className="h-8 w-8" />
+                </div>
+                <h3 className="text-xl font-headline font-bold">Bulk & Events</h3>
+                <p className="text-muted-foreground text-sm">Catering platters for office events and local Jalandhar gatherings.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -56,12 +92,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
               <div className="space-y-2">
-                <h2 className="text-4xl font-headline font-bold">Chef's Specials</h2>
-                <p className="text-muted-foreground">Our most loved signature items, fresh out of the oven in Jalandhar.</p>
+                <h2 className="text-4xl font-headline font-bold">Local Favorites</h2>
+                <p className="text-muted-foreground text-lg">Specially crafted for the Jalandhar palate. Freshly baked every dawn.</p>
               </div>
               <Button asChild variant="link" className="text-primary font-bold text-lg group p-0">
                 <Link href="/shop" className="flex items-center">
-                  View full menu
+                  See the full menu
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
@@ -86,9 +122,9 @@ export default function Home() {
                <Wheat className="absolute -bottom-10 -right-10 h-64 w-64 -rotate-12" />
             </div>
             <div className="relative z-10 space-y-6">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join the Crumbs N Subs Family</h2>
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join Jalandhar's Bread Club</h2>
               <p className="text-white/70 text-lg max-w-xl mx-auto">
-                Sign up for fresh updates, Jalandhar store specials, and a 10% discount on your first sub.
+                Get exclusive birthday month discounts and early access to our seasonal sub specials.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto pt-4">
                 <input 
@@ -96,8 +132,8 @@ export default function Home() {
                   placeholder="your@email.com" 
                   className="flex-1 bg-white/10 border-white/20 text-white placeholder:text-white/40 rounded-full px-6 py-3 outline-none focus:ring-2 focus:ring-accent transition-all"
                 />
-                <Button className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 h-12">
-                  Subscribe
+                <Button className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 h-12 font-bold">
+                  Get My 10% Off
                 </Button>
               </div>
             </div>

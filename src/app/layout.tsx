@@ -4,8 +4,9 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Crumbs N Subs | Artisan Bakery & Sandwiches',
-  description: 'Artisan baked goods and fresh gourmet subs, delivered fresh from our oven to your door in Jalandhar.',
+  title: 'Crumbs N Subs | Best Birthday Cakes & Gourmet Subs in Jalandhar',
+  description: 'Artisan bakery in Model Town, Jalandhar. Specializing in customized birthday & anniversary cakes, affordable student snacks, and gourmet sub platters for bulk orders.',
+  keywords: ['Bakery Jalandhar', 'Birthday Cakes Jalandhar', 'Anniversary Cakes Punjab', 'Gourmet Subs Jalandhar', 'Bulk Food Orders Jalandhar', 'Model Town Bakery'],
 };
 
 export default function RootLayout({

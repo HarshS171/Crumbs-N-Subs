@@ -38,8 +38,8 @@ export function CartDisplay() {
           <ShoppingCart className="h-10 w-10 text-muted-foreground" />
         </div>
         <h3 className="text-xl font-headline font-semibold">Your basket is empty</h3>
-        <p className="text-muted-foreground">Treat yourself to something fresh from our oven.</p>
-        <Button asChild className="bg-primary hover:bg-primary/90">
+        <p className="text-muted-foreground">Treat yourself to something fresh from our oven in Jalandhar.</p>
+        <Button asChild className="bg-primary hover:bg-primary/90 rounded-full">
           <a href="/shop">Browse Menu</a>
         </Button>
       </div>
@@ -63,8 +63,8 @@ export function CartDisplay() {
               </div>
               <div className="flex-1 space-y-1">
                 <div className="flex justify-between">
-                  <h4 className="font-medium">{item.name}</h4>
-                  <span className="font-semibold">£{(item.price * item.quantity).toFixed(2)}</span>
+                  <h4 className="font-medium text-sm md:text-base">{item.name}</h4>
+                  <span className="font-bold">₹{(item.price * item.quantity).toFixed(2)}</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center border rounded-md">
@@ -103,7 +103,7 @@ export function CartDisplay() {
         <div className="mt-8 space-y-4 bg-secondary/30 p-4 rounded-lg border border-primary/10">
           <div className="flex items-center gap-2 text-primary">
             <Sparkles className="h-4 w-4" />
-            <h5 className="font-headline font-semibold text-sm">Chef's Pairings</h5>
+            <h5 className="font-headline font-semibold text-sm">Chef's Local Pairings</h5>
           </div>
           {recommendations.length > 0 ? (
             <div className="space-y-2">
@@ -126,12 +126,12 @@ export function CartDisplay() {
             <Button
               variant="outline"
               size="sm"
-              className="w-full text-xs h-9 border-primary/20 hover:bg-primary/5"
+              className="w-full text-xs h-9 border-primary/20 hover:bg-primary/5 rounded-full"
               disabled={loadingAi}
               onClick={getSuggestions}
             >
               {loadingAi ? <Loader2 className="h-3 w-3 animate-spin mr-2" /> : <Sparkles className="h-3 w-3 mr-2" />}
-              Ask for pairings
+              Ask AI for Pairings
             </Button>
           )}
         </div>
@@ -142,19 +142,19 @@ export function CartDisplay() {
         <div className="space-y-1.5">
           <div className="flex justify-between text-sm">
             <span className="text-muted-foreground">Subtotal</span>
-            <span>£{total.toFixed(2)}</span>
+            <span>₹{total.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-muted-foreground">Delivery</span>
+            <span className="text-muted-foreground">Delivery in Jalandhar</span>
             <span className="text-primary font-medium">Free</span>
           </div>
           <div className="flex justify-between text-lg font-headline font-bold pt-2">
             <span>Total</span>
-            <span>£{total.toFixed(2)}</span>
+            <span>₹{total.toFixed(2)}</span>
           </div>
         </div>
-        <Button className="w-full h-12 bg-primary hover:bg-primary/90 text-primary-foreground group">
-          Checkout Securely
+        <Button className="w-full h-12 bg-primary hover:bg-primary/90 text-primary-foreground group rounded-full">
+          Confirm My Order
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Button>
       </div>

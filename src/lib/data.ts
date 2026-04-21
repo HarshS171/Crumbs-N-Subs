@@ -7,80 +7,80 @@ const getPlaceholder = (id: string) => PlaceHolderImages.find(img => img.id === 
 export const PRODUCTS: Product[] = [
   {
     id: 'p1',
-    name: 'Classic Sourdough',
-    description: 'Our signature tangy sourdough loaf with a perfectly crisp crust and airy center.',
-    price: 8.50,
+    name: 'Spicy Paneer Tikka Sub',
+    description: 'A student favorite! Zesty paneer tikka with mint mayo and fresh veggies on house-baked bread. Affordable and filling.',
+    price: 180.00,
     category: 'Bread',
-    image: getPlaceholder('sourdough-loaf')?.imageUrl || '',
-    hint: 'sourdough bread'
+    image: 'https://picsum.photos/seed/paneer/600/400',
+    hint: 'paneer sandwich'
   },
   {
     id: 'p2',
-    name: 'Butter Croissant',
-    description: 'Golden, flaky layers of pure buttery goodness. Baked fresh every morning.',
-    price: 4.25,
+    name: 'Classic Chocolate Birthday Cake',
+    description: 'Perfect for family celebrations. Rich Belgian chocolate layers with customizable name frosting. Serves 8-10.',
+    price: 850.00,
+    category: 'Cakes',
+    image: getPlaceholder('chocolate-cake')?.imageUrl || '',
+    hint: 'birthday cake'
+  },
+  {
+    id: 'p3',
+    name: 'Red Velvet Anniversary Heart',
+    description: 'Celebrate your love with our signature crimson cake, layered with smooth cream cheese frosting. Elegant and romantic.',
+    price: 950.00,
+    category: 'Cakes',
+    image: 'https://picsum.photos/seed/anniversary/600/400',
+    hint: 'red velvet cake'
+  },
+  {
+    id: 'p4',
+    name: 'Event Party Platter',
+    description: 'Bulk order special! 12 assorted gourmet mini-subs and 6 pastries. Ideal for office meetings or home parties.',
+    price: 2400.00,
+    category: 'Bread',
+    image: getPlaceholder('bakery-exterior')?.imageUrl || '',
+    hint: 'sandwich platter'
+  },
+  {
+    id: 'p5',
+    name: 'Butter Croissant Duo',
+    description: 'Two golden, flaky croissants. A quick and delicious snack for busy students or a light family breakfast.',
+    price: 120.00,
     category: 'Pastries',
     image: getPlaceholder('croissant-classic')?.imageUrl || '',
     hint: 'croissant'
   },
   {
-    id: 'p3',
-    name: 'Dark Chocolate Slice',
-    description: 'Decadent 70% dark chocolate cake layered with silky ganache.',
-    price: 6.75,
-    category: 'Cakes',
-    image: getPlaceholder('chocolate-cake')?.imageUrl || '',
-    hint: 'chocolate cake'
-  },
-  {
-    id: 'p4',
-    name: 'Warm Cinnamon Roll',
-    description: 'Soft, brioche-style dough swirled with aromatic cinnamon and topped with cream cheese frosting.',
-    price: 5.50,
-    category: 'Pastries',
-    image: getPlaceholder('cinnamon-roll')?.imageUrl || '',
-    hint: 'cinnamon roll'
-  },
-  {
-    id: 'p5',
-    name: 'Artisan Latte',
-    description: 'Smooth double shot espresso with velvety steamed milk.',
-    price: 4.50,
+    id: 'p6',
+    name: 'Masala Artisan Latte',
+    description: 'A local twist! Bold espresso with steamed milk and a hint of Punjabi chai spices.',
+    price: 150.00,
     category: 'Drinks',
     image: getPlaceholder('coffee-latte')?.imageUrl || '',
     hint: 'coffee latte'
-  },
-  {
-    id: 'p6',
-    name: 'Blueberry Crumble Muffin',
-    description: 'Bursting with fresh blueberries and topped with a sweet, buttery streusel.',
-    price: 3.95,
-    category: 'Pastries',
-    image: getPlaceholder('blueberry-muffin')?.imageUrl || '',
-    hint: 'blueberry muffin'
   }
 ];
 
 export const REVIEWS: Review[] = [
   {
     id: 'r1',
-    author: 'Eleanor Rigby',
+    author: 'Amanpreet Singh',
     rating: 5,
-    content: "The sourdough is life-changing! It's exactly like the bread I used to get in San Francisco.",
+    content: "The Spicy Paneer Sub is the best student deal in Model Town. Fresh bread every single time!",
     date: '2024-03-15'
   },
   {
     id: 'r2',
-    author: 'Sam Gamgee',
+    author: 'Priya Sharma',
     rating: 5,
-    content: 'Those cinnamon rolls are precious. Best in the Shire!',
+    content: 'Ordered a birthday cake for my son. The chocolate was so rich and the delivery in Jalandhar was spot on.',
     date: '2024-03-10'
   },
   {
     id: 'r3',
-    author: 'Alice Liddell',
-    rating: 4,
-    content: 'Lovely pastries and the tea is divine. A wonderful spot for an afternoon break.',
+    author: 'Rajiv Malhotra',
+    rating: 5,
+    content: 'The Red Velvet Heart cake made our anniversary special. Elegant presentation and great taste.',
     date: '2024-02-28'
   }
 ];
