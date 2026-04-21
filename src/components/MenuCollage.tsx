@@ -5,11 +5,11 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export function MenuCollage() {
   const items = [
     { id: 'chocolate-cake', title: 'Signature Cakes', span: 'md:col-span-2 md:row-span-2' },
-    { id: 'burger-premium', title: 'Gourmet Burgers', span: 'col-span-1' },
-    { id: 'coffee-latte', title: 'Artisan Coffee', span: 'col-span-1' },
+    { id: 'aloo-burger', title: 'Gourmet Burgers', span: 'col-span-1' },
+    { id: 'masala-latte', title: 'Artisan Coffee', span: 'col-span-1' },
     { id: 'croissant-classic', title: 'French Pastries', span: 'col-span-1' },
-    { id: 'shake-deluxe', title: 'Thick Shakes', span: 'col-span-1' },
-    { id: 'cookies-fresh', title: 'Craft Cookies', span: 'md:col-span-2' },
+    { id: 'fudge-shake', title: 'Thick Shakes', span: 'col-span-1' },
+    { id: 'choco-cookies', title: 'Craft Cookies', span: 'md:col-span-2' },
   ];
 
   return (

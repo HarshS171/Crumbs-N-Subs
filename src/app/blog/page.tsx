@@ -6,8 +6,11 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Clock, User, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Blog() {
+  const getImg = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageUrl || '';
+
   const POSTS = [
     {
       id: 1,
@@ -17,7 +20,8 @@ export default function Blog() {
       date: "May 12, 2024",
       readTime: "5 min read",
       category: "Trends",
-      image: "https://picsum.photos/seed/blog1/600/400"
+      image: getImg('blog-trends'),
+      hint: "bakery trends"
     },
     {
       id: 2,
@@ -27,7 +31,8 @@ export default function Blog() {
       date: "April 28, 2024",
       readTime: "8 min read",
       category: "Behind the Scenes",
-      image: "https://picsum.photos/seed/blog2/600/400"
+      image: getImg('blog-bread'),
+      hint: "artisan bread"
     },
     {
       id: 3,
@@ -37,7 +42,8 @@ export default function Blog() {
       date: "April 15, 2024",
       readTime: "6 min read",
       category: "Guides",
-      image: "https://picsum.photos/seed/blog3/600/400"
+      image: getImg('blog-bulk'),
+      hint: "event catering"
     }
   ];
 
@@ -60,7 +66,7 @@ export default function Blog() {
                     alt={post.title} 
                     fill 
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    data-ai-hint="bakery blog"
+                    data-ai-hint={post.hint}
                   />
                   <Badge className="absolute top-4 left-4 bg-white/90 text-primary border-none shadow-sm rounded-full">
                     {post.category}

@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     description: 'A student favorite! Zesty paneer tikka with mint mayo and fresh veggies on house-baked bread. Affordable and filling.',
     price: 180.00,
     category: 'Subs',
-    image: 'https://picsum.photos/seed/paneer/600/400',
+    image: getPlaceholder('paneer-sub')?.imageUrl || '',
     hint: 'paneer sandwich'
   },
   {
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     description: 'The ultimate Punjabi burger. Crispy aloo patty, secret spices, and artisan buns baked in-house.',
     price: 120.00,
     category: 'Burgers',
-    image: getPlaceholder('burger-premium')?.imageUrl || '',
+    image: getPlaceholder('aloo-burger')?.imageUrl || '',
     hint: 'gourmet burger'
   },
   {
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
     description: 'Celebrate your love with our signature crimson cake, layered with smooth cream cheese frosting. Elegant and romantic.',
     price: 950.00,
     category: 'Cakes',
-    image: 'https://picsum.photos/seed/anniversary/600/400',
+    image: getPlaceholder('red-velvet')?.imageUrl || '',
     hint: 'red velvet cake'
   },
   {
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
     description: 'A local twist! Bold espresso with steamed milk and a hint of Punjabi chai spices.',
     price: 150.00,
     category: 'Coffee',
-    image: getPlaceholder('coffee-latte')?.imageUrl || '',
+    image: getPlaceholder('masala-latte')?.imageUrl || '',
     hint: 'coffee latte'
   },
   {
@@ -65,7 +65,7 @@ export const PRODUCTS: Product[] = [
     description: 'Batch of 6 soft-baked cookies. The perfect mix of sweet and salty for a quick treat.',
     price: 240.00,
     category: 'Cookies',
-    image: getPlaceholder('cookies-fresh')?.imageUrl || '',
+    image: getPlaceholder('choco-cookies')?.imageUrl || '',
     hint: 'chocolate cookies'
   },
   {
@@ -74,7 +74,7 @@ export const PRODUCTS: Product[] = [
     description: 'Thick, creamy, and loaded with fudge. A student delight for those hot Jalandhar afternoons.',
     price: 190.00,
     category: 'Shakes',
-    image: getPlaceholder('shake-deluxe')?.imageUrl || '',
+    image: getPlaceholder('fudge-shake')?.imageUrl || '',
     hint: 'chocolate milkshake'
   },
   {
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
     description: 'Velvety smooth cheesecake topped with fresh blueberry compote.',
     price: 210.00,
     category: 'Desserts',
-    image: 'https://picsum.photos/seed/cheesecake/600/400',
+    image: getPlaceholder('blueberry-cheesecake')?.imageUrl || '',
     hint: 'blueberry cheesecake'
   }
 ];
