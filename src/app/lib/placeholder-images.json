@@ -3,111 +3,111 @@
   "placeholderImages": [
     {
       "id": "hero-bakery",
-      "description": "Premium 3D-rendered bakery interior with stunning lighting",
-      "imageUrl": "https://picsum.photos/seed/bakery_3d_luxe/1920/1080",
+      "description": "Premium bakery interior with warm lighting, fresh bread and pastries on display",
+      "imageUrl": "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&h=1080&fit=crop&q=80",
       "imageHint": "bakery interior"
     },
     {
       "id": "bakery-exterior",
-      "description": "Charming Crumbs N Subs shop front in Model Town",
-      "imageUrl": "https://picsum.photos/seed/shop_ext/1200/600",
+      "description": "Charming bakery shop front with warm inviting glow",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop&q=80",
       "imageHint": "bakery storefront"
     },
     {
       "id": "bakery-shelves",
       "description": "Artisan bread display on wooden shelves",
-      "imageUrl": "https://picsum.photos/seed/shelves/800/600",
-      "imageHint": "bakery shelves"
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=600&fit=crop&q=80",
+      "imageHint": "bakery shelves bread"
     },
     {
       "id": "paneer-sub",
       "description": "Spicy Paneer Tikka Sub with fresh veggies",
-      "imageUrl": "https://picsum.photos/seed/paneer_sub/600/400",
-      "imageHint": "paneer sandwich"
+      "imageUrl": "https://images.unsplash.com/photo-1554433607-66b5efe9d304?w=600&h=400&fit=crop&q=80",
+      "imageHint": "paneer sandwich sub"
     },
     {
       "id": "chocolate-cake",
-      "description": "Rich Belgian Chocolate Birthday Cake",
-      "imageUrl": "https://picsum.photos/seed/choco_cake/600/400",
+      "description": "Rich Belgian Chocolate Birthday Cake with ganache layers",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&q=80",
       "imageHint": "chocolate cake"
     },
     {
       "id": "aloo-burger",
-      "description": "Gourmet Aloo Tikki Burger with artisan bun",
-      "imageUrl": "https://picsum.photos/seed/aloo_burger/600/400",
+      "description": "Gourmet veggie burger with artisan bun and fresh toppings",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop&q=80",
       "imageHint": "gourmet burger"
     },
     {
       "id": "red-velvet",
-      "description": "Red Velvet Anniversary Heart Cake",
-      "imageUrl": "https://picsum.photos/seed/red_velvet/600/400",
-      "imageHint": "red velvet"
+      "description": "Red Velvet cake with cream cheese frosting",
+      "imageUrl": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=600&h=400&fit=crop&q=80",
+      "imageHint": "red velvet cake"
     },
     {
       "id": "croissant-classic",
-      "description": "Flaky golden Butter Croissants",
-      "imageUrl": "https://picsum.photos/seed/croissant_1/600/400",
+      "description": "Flaky golden Butter Croissants fresh from the oven",
+      "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop&q=80",
       "imageHint": "croissant pastry"
     },
     {
       "id": "masala-latte",
-      "description": "Artisan Masala Latte with Punjabi spices",
-      "imageUrl": "https://picsum.photos/seed/masala_latte/600/400",
-      "imageHint": "coffee latte"
+      "description": "Artisan latte with beautiful latte art in a ceramic cup",
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=400&fit=crop&q=80",
+      "imageHint": "coffee latte art"
     },
     {
       "id": "choco-cookies",
-      "description": "Soft-baked Choco-Chip Sea Salt Cookies",
-      "imageUrl": "https://picsum.photos/seed/cookies_set/600/400",
-      "imageHint": "chocolate cookies"
+      "description": "Soft-baked chocolate chip cookies stacked on a plate",
+      "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&h=400&fit=crop&q=80",
+      "imageHint": "chocolate chip cookies"
     },
     {
       "id": "fudge-shake",
-      "description": "Double Chocolate Fudge Milkshake",
-      "imageUrl": "https://picsum.photos/seed/shake_choco/600/400",
+      "description": "Rich chocolate milkshake topped with whipped cream",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&h=400&fit=crop&q=80",
       "imageHint": "chocolate milkshake"
     },
     {
       "id": "blueberry-cheesecake",
-      "description": "Velvety Blueberry Cheesecake Slice",
-      "imageUrl": "https://picsum.photos/seed/cheesecake_blue/600/400",
+      "description": "Creamy blueberry cheesecake slice with berry topping",
+      "imageUrl": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&h=400&fit=crop&q=80",
       "imageHint": "blueberry cheesecake"
     },
     {
       "id": "glazed-donut",
-      "description": "Assorted fresh glazed donuts",
-      "imageUrl": "https://picsum.photos/seed/donuts/600/400",
+      "description": "Assorted colorful glazed donuts arranged beautifully",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop&q=80",
       "imageHint": "glazed donuts"
     },
     {
       "id": "veg-puff",
-      "description": "Crispy golden vegetable puffs",
-      "imageUrl": "https://picsum.photos/seed/puff/600/400",
-      "imageHint": "savory puff"
+      "description": "Crispy golden flaky pastry puffs",
+      "imageUrl": "https://images.unsplash.com/photo-1604908177453-7462950a6a3b?w=600&h=400&fit=crop&q=80",
+      "imageHint": "savory pastry puff"
     },
     {
       "id": "club-sandwich",
-      "description": "Gourmet multi-layered club sandwich",
-      "imageUrl": "https://picsum.photos/seed/sandwich/600/400",
+      "description": "Gourmet multi-layered club sandwich with fresh ingredients",
+      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&h=400&fit=crop&q=80",
       "imageHint": "club sandwich"
     },
     {
       "id": "blog-trends",
-      "description": "Cake trends 2024 showcase",
-      "imageUrl": "https://picsum.photos/seed/blog_cakes/600/400",
-      "imageHint": "bakery trends"
+      "description": "Beautiful decorated celebration cakes showcase",
+      "imageUrl": "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=600&h=400&fit=crop&q=80",
+      "imageHint": "decorated cakes"
     },
     {
       "id": "blog-bread",
-      "description": "Behind the scenes of bread fermentation",
-      "imageUrl": "https://picsum.photos/seed/blog_bread/600/400",
-      "imageHint": "artisan bread"
+      "description": "Artisan sourdough bread with crispy crust and open crumb",
+      "imageUrl": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=600&h=400&fit=crop&q=80",
+      "imageHint": "artisan sourdough bread"
     },
     {
       "id": "blog-bulk",
-      "description": "Bulk event catering preparation",
-      "imageUrl": "https://picsum.photos/seed/blog_catering/600/400",
-      "imageHint": "event catering"
+      "description": "Event catering spread with assorted pastries and food",
+      "imageUrl": "https://images.unsplash.com/photo-1555244162-803834f70033?w=600&h=400&fit=crop&q=80",
+      "imageHint": "event catering food"
     }
   ]
 }

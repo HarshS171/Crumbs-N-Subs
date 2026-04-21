@@ -2,50 +2,50 @@
   "placeholderImages": [
     {
       "id": "hero-bakery",
-      "description": "Warm rustic bakery interior",
-      "imageUrl": "https://picsum.photos/seed/bakery1/1200/600",
+      "description": "Premium bakery interior with warm lighting, fresh bread and pastries on display",
+      "imageUrl": "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&h=1080&fit=crop&q=80",
       "imageHint": "bakery interior"
     },
     {
       "id": "croissant-classic",
-      "description": "Flaky golden croissant",
-      "imageUrl": "https://picsum.photos/seed/croissant/600/400",
+      "description": "Flaky golden Butter Croissants fresh from the oven",
+      "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=400&fit=crop&q=80",
       "imageHint": "croissant pastry"
     },
     {
       "id": "sourdough-loaf",
-      "description": "Freshly baked sourdough bread",
-      "imageUrl": "https://picsum.photos/seed/sourdough/600/400",
+      "description": "Freshly baked sourdough bread with open crumb",
+      "imageUrl": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=600&h=400&fit=crop&q=80",
       "imageHint": "sourdough bread"
     },
     {
       "id": "chocolate-cake",
-      "description": "Rich dark chocolate cake slice",
-      "imageUrl": "https://picsum.photos/seed/cake/600/400",
+      "description": "Rich dark chocolate cake with ganache layers",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&q=80",
       "imageHint": "chocolate cake"
     },
     {
       "id": "cinnamon-roll",
-      "description": "Warm cinnamon roll with frosting",
-      "imageUrl": "https://picsum.photos/seed/cinnamon/600/400",
+      "description": "Warm golden cinnamon roll with cream frosting",
+      "imageUrl": "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&h=400&fit=crop&q=80",
       "imageHint": "cinnamon roll"
     },
     {
       "id": "coffee-latte",
-      "description": "Artisan latte in a ceramic mug",
-      "imageUrl": "https://picsum.photos/seed/latte/600/400",
+      "description": "Artisan latte with beautiful latte art",
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=400&fit=crop&q=80",
       "imageHint": "coffee latte"
     },
     {
       "id": "blueberry-muffin",
-      "description": "Fresh blueberry muffin",
-      "imageUrl": "https://picsum.photos/seed/muffin/600/400",
+      "description": "Fresh blueberry muffin with crumbly top",
+      "imageUrl": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&h=400&fit=crop&q=80",
       "imageHint": "blueberry muffin"
     },
     {
       "id": "bakery-exterior",
-      "description": "Charming bakery shop front",
-      "imageUrl": "https://picsum.photos/seed/shop/1200/600",
+      "description": "Charming bakery shop front with warm inviting glow",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop&q=80",
       "imageHint": "bakery storefront"
     }
   ]
