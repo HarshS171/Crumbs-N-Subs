@@ -1,3 +1,4 @@
+
 'use server';
 /**
  * @fileOverview This file implements a Genkit flow that provides intelligent
@@ -16,7 +17,7 @@ const AIPairedRecommendationsInputSchema = z.object({
   currentItems: z
     .array(z.string())
     .describe(
-      'A list of items (baked goods or drinks) the customer is currently interested in or has in their cart.'
+      'A list of items (baked goods, subs, or drinks) the customer is currently interested in or has in their cart.'
     ),
 });
 export type AIPairedRecommendationsInput = z.infer<
@@ -26,7 +27,7 @@ export type AIPairedRecommendationsInput = z.infer<
 const AIPairedRecommendationsOutputSchema = z.object({
   suggestions: z
     .array(z.string())
-    .describe('A list of suggested complementary baked goods or drinks.'),
+    .describe('A list of suggested complementary items from our bakery or sandwich menu.'),
 });
 export type AIPairedRecommendationsOutput = z.infer<
   typeof AIPairedRecommendationsOutputSchema
@@ -42,10 +43,10 @@ const pairedRecommendationsPrompt = ai.definePrompt({
   name: 'pairedRecommendationsPrompt',
   input: {schema: AIPairedRecommendationsInputSchema},
   output: {schema: AIPairedRecommendationsOutputSchema},
-  prompt: `You are an expert baker and a skilled sommelier for a rustic bakery called 'The Warm Crumb Bakery'.
-Your task is to suggest complementary baked goods or drinks based on a customer's current selection.
-The suggestions should enhance the customer's order and help them discover new delightful pairings.
-Provide 3-5 unique and appealing suggestions. Focus on classic pairings or creative, delicious combinations.
+  prompt: `You are an expert baker and sandwich artisan for a premium bakery and sub shop called 'Crumbs N Subs', located in Jalandhar, Punjab.
+Your task is to suggest complementary baked goods, gourmet subs, or drinks based on a customer's current selection.
+The suggestions should reflect a fusion of international artisan quality and local Punjabi flavor where appropriate.
+Provide 3-5 unique and appealing suggestions. Focus on classic pairings or creative, delicious combinations that would appeal to a foodie in Jalandhar.
 Do not suggest items that are already in the customer's selection.
 
 Customer's current selection: {{{currentItems}}}

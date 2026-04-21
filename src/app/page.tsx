@@ -23,7 +23,7 @@ export default function Home() {
         <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
           <Image
             src={heroImage}
-            alt="The Warm Crumb Bakery Interior"
+            alt="Crumbs N Subs Interior"
             fill
             className="object-cover brightness-[0.6]"
             priority
@@ -32,13 +32,13 @@ export default function Home() {
           <div className="relative z-10 text-center px-4 max-w-4xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-md px-4 py-2 rounded-full text-accent-foreground border border-accent/30 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <Sparkles className="h-4 w-4" />
-              <span className="text-sm font-medium uppercase tracking-widest">Est. 2012</span>
+              <span className="text-sm font-medium uppercase tracking-widest">Proudly Punjab</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-headline font-bold text-white tracking-tight leading-none animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-200">
-              Baked with Love, <br /><span className="text-accent">Served with Heart.</span>
+              Crumbs N Subs: <br /><span className="text-accent">Fresh Bakes, Bold Subs.</span>
             </h1>
             <p className="text-lg md:text-xl text-white/80 font-medium max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-              Experience the artisan difference of traditional stone-ground flour and slow-fermentation sourdough.
+              Jalandhar's favorite destination for artisan bread and gourmet sandwiches, crafted with local love.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-600">
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 h-14 text-lg">
@@ -56,8 +56,8 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
               <div className="space-y-2">
-                <h2 className="text-4xl font-headline font-bold">Baker's Choice</h2>
-                <p className="text-muted-foreground">Our most loved signature items, fresh out of the oven.</p>
+                <h2 className="text-4xl font-headline font-bold">Chef's Specials</h2>
+                <p className="text-muted-foreground">Our most loved signature items, fresh out of the oven in Jalandhar.</p>
               </div>
               <Button asChild variant="link" className="text-primary font-bold text-lg group p-0">
                 <Link href="/shop" className="flex items-center">
@@ -86,9 +86,9 @@ export default function Home() {
                <Wheat className="absolute -bottom-10 -right-10 h-64 w-64 -rotate-12" />
             </div>
             <div className="relative z-10 space-y-6">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join the Crumb Community</h2>
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join the Crumbs N Subs Family</h2>
               <p className="text-white/70 text-lg max-w-xl mx-auto">
-                Sign up for fresh updates, seasonal specials, and a 10% discount on your first online order.
+                Sign up for fresh updates, Jalandhar store specials, and a 10% discount on your first sub.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto pt-4">
                 <input 

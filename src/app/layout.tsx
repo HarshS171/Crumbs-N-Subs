@@ -4,8 +4,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'The Warm Crumb Bakery',
-  description: 'Artisan baked goods, delivered fresh from our oven to your door.',
+  title: 'Crumbs N Subs | Artisan Bakery & Sandwiches',
+  description: 'Artisan baked goods and fresh gourmet subs, delivered fresh from our oven to your door in Jalandhar.',
 };
 
 export default function RootLayout({

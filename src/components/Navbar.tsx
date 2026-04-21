@@ -24,7 +24,7 @@ export function Navbar() {
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Wheat className="h-6 w-6 text-primary" />
-            <span className="text-xl font-headline font-bold text-primary tracking-tight">The Warm Crumb</span>
+            <span className="text-xl font-headline font-bold text-primary tracking-tight">Crumbs N Subs</span>
           </Link>
           <div className="hidden md:flex items-center gap-6">
             <Link href="/shop" className="text-sm font-medium hover:text-primary transition-colors">Menu</Link>

@@ -9,10 +9,10 @@ export function Footer() {
         <div className="space-y-4">
           <div className="flex items-center gap-2">
             <Wheat className="h-6 w-6" />
-            <span className="text-xl font-headline font-bold">The Warm Crumb</span>
+            <span className="text-xl font-headline font-bold">Crumbs N Subs</span>
           </div>
           <p className="text-primary-foreground/70 text-sm leading-relaxed">
-            Crafting artisan moments one loaf at a time. Join our community of bread lovers and pastry enthusiasts.
+            Crafting artisan moments and gourmet subs one bite at a time. Proudly serving the Jalandhar community.
           </p>
         </div>
         
@@ -50,7 +50,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="text-xs text-primary-foreground/50">
-            © {new Date().getFullYear()} The Warm Crumb Bakery Ltd. All rights reserved.
+            © {new Date().getFullYear()} Crumbs N Subs Jalandhar. All rights reserved.
           </p>
         </div>
       </div>
