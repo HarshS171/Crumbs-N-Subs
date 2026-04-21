@@ -1,6 +1,7 @@
 
 "use client";
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
@@ -11,7 +12,7 @@ import { Label } from '@/components/ui/label';
 import { Mail, Phone, MapPin, Send, PartyPopper, CalendarDays } from 'lucide-react';
 import { BakeryInfo } from '@/components/BakeryInfo';
 
-export default function Contact() {
+function ContactContent() {
   const searchParams = useSearchParams();
   const isCustomOrder = searchParams.get('type') === 'custom';
 
@@ -131,5 +132,23 @@ export default function Contact() {
       </main>
       <Footer />
     </>
+  );
+}
+
+export default function Contact() {
+  return (
+    <Suspense fallback={
+      <>
+        <Navbar />
+        <main className="flex-grow bg-background py-16 px-4">
+          <div className="max-w-7xl mx-auto text-center">
+            <p className="text-muted-foreground">Loading...</p>
+          </div>
+        </main>
+        <Footer />
+      </>
+    }>
+      <ContactContent />
+    </Suspense>
   );
 }
