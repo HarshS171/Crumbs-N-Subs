@@ -10,7 +10,7 @@ export const PRODUCTS: Product[] = [
     name: 'Spicy Paneer Tikka Sub',
     description: 'A student favorite! Zesty paneer tikka with mint mayo and fresh veggies on house-baked bread. Affordable and filling.',
     price: 180.00,
-    category: 'Bread',
+    category: 'Subs',
     image: 'https://picsum.photos/seed/paneer/600/400',
     hint: 'paneer sandwich'
   },
@@ -25,21 +25,21 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'p3',
+    name: 'Gourmet Aloo Tikki Burger',
+    description: 'The ultimate Punjabi burger. Crispy aloo patty, secret spices, and artisan buns baked in-house.',
+    price: 120.00,
+    category: 'Burgers',
+    image: getPlaceholder('burger-premium')?.imageUrl || '',
+    hint: 'gourmet burger'
+  },
+  {
+    id: 'p4',
     name: 'Red Velvet Anniversary Heart',
     description: 'Celebrate your love with our signature crimson cake, layered with smooth cream cheese frosting. Elegant and romantic.',
     price: 950.00,
     category: 'Cakes',
     image: 'https://picsum.photos/seed/anniversary/600/400',
     hint: 'red velvet cake'
-  },
-  {
-    id: 'p4',
-    name: 'Event Party Platter',
-    description: 'Bulk order special! 12 assorted gourmet mini-subs and 6 pastries. Ideal for office meetings or home parties.',
-    price: 2400.00,
-    category: 'Bread',
-    image: getPlaceholder('bakery-exterior')?.imageUrl || '',
-    hint: 'sandwich platter'
   },
   {
     id: 'p5',
@@ -55,9 +55,36 @@ export const PRODUCTS: Product[] = [
     name: 'Masala Artisan Latte',
     description: 'A local twist! Bold espresso with steamed milk and a hint of Punjabi chai spices.',
     price: 150.00,
-    category: 'Drinks',
+    category: 'Coffee',
     image: getPlaceholder('coffee-latte')?.imageUrl || '',
     hint: 'coffee latte'
+  },
+  {
+    id: 'p7',
+    name: 'Choco-Chip Sea Salt Cookies',
+    description: 'Batch of 6 soft-baked cookies. The perfect mix of sweet and salty for a quick treat.',
+    price: 240.00,
+    category: 'Cookies',
+    image: getPlaceholder('cookies-fresh')?.imageUrl || '',
+    hint: 'chocolate cookies'
+  },
+  {
+    id: 'p8',
+    name: 'Double Chocolate Fudge Shake',
+    description: 'Thick, creamy, and loaded with fudge. A student delight for those hot Jalandhar afternoons.',
+    price: 190.00,
+    category: 'Shakes',
+    image: getPlaceholder('shake-deluxe')?.imageUrl || '',
+    hint: 'chocolate milkshake'
+  },
+  {
+    id: 'p9',
+    name: 'Blueberry Cheesecake Slice',
+    description: 'Velvety smooth cheesecake topped with fresh blueberry compote.',
+    price: 210.00,
+    category: 'Desserts',
+    image: 'https://picsum.photos/seed/cheesecake/600/400',
+    hint: 'blueberry cheesecake'
   }
 ];
 

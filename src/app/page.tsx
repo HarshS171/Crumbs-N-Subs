@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 import { ReviewSection } from '@/components/ReviewSection';
 import { BakeryInfo } from '@/components/BakeryInfo';
 import { ProductCard } from '@/components/ProductCard';
+import { MenuCollage } from '@/components/MenuCollage';
 import { PRODUCTS } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -38,7 +39,7 @@ export default function Home() {
               Crumbs N Subs: <br /><span className="text-accent">Made for Jalandhar.</span>
             </h1>
             <p className="text-lg md:text-2xl text-white/90 font-medium max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-              From birthday cakes for the family to affordable snacks for students, we bake moments that matter.
+              From gourmet burgers to artisan birthday cakes, we bake moments that matter in Model Town.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-600">
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-10 h-14 text-lg font-bold shadow-xl transition-all hover:scale-105">
@@ -60,7 +61,7 @@ export default function Home() {
                   <GraduationCap className="h-8 w-8" />
                 </div>
                 <h3 className="text-xl font-headline font-bold">Student Specials</h3>
-                <p className="text-muted-foreground text-sm">Deliciously affordable subs and snacks for your study breaks.</p>
+                <p className="text-muted-foreground text-sm">Deliciously affordable burgers, subs and shakes for your study breaks.</p>
               </div>
               <div className="bg-background p-8 rounded-3xl border border-border/50 text-center space-y-4 shadow-sm hover:shadow-md transition-shadow">
                 <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto text-primary">
@@ -86,6 +87,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Menu Collage Showcase */}
+        <MenuCollage />
 
         {/* Featured Section */}
         <section className="py-24 px-4 bg-background">
@@ -124,7 +128,7 @@ export default function Home() {
             <div className="relative z-10 space-y-6">
               <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join Jalandhar's Bread Club</h2>
               <p className="text-white/70 text-lg max-w-xl mx-auto">
-                Get exclusive birthday month discounts and early access to our seasonal sub specials.
+                Get exclusive birthday month discounts and early access to our seasonal specials.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto pt-4">
                 <input 

@@ -9,7 +9,7 @@ import { PRODUCTS } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Search } from 'lucide-react';
 
-const CATEGORIES = ['All', 'Bread', 'Pastries', 'Cakes', 'Drinks'];
+const CATEGORIES = ['All', 'Cakes', 'Pastries', 'Cookies', 'Breads', 'Subs', 'Burgers', 'Coffee', 'Shakes', 'Desserts'];
 
 export default function Shop() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -31,7 +31,7 @@ export default function Shop() {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-headline font-bold">Our Fresh Menu</h1>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Baked daily with traditional methods and organic local ingredients. 
+              Baked daily with traditional methods and organic local ingredients in Jalandhar. 
               Available for collection or local delivery.
             </p>
           </div>
@@ -95,7 +95,7 @@ export default function Shop() {
               </div>
               <div>
                 <h4 className="text-xl font-headline font-bold">Don't see what you want?</h4>
-                <p className="text-muted-foreground">We take custom orders for events, celebrations, and wholesale.</p>
+                <p className="text-muted-foreground">We take custom orders for events, celebrations, and wholesale in Model Town.</p>
               </div>
             </div>
             <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 h-12">

@@ -4,7 +4,7 @@ export interface Product {
   name: string;
   description: string;
   price: number;
-  category: 'Bread' | 'Pastries' | 'Cakes' | 'Drinks';
+  category: 'Cakes' | 'Pastries' | 'Cookies' | 'Breads' | 'Subs' | 'Burgers' | 'Coffee' | 'Shakes' | 'Desserts';
   image: string;
   hint: string;
 }

@@ -38,10 +38,22 @@
       "imageHint": "coffee latte"
     },
     {
-      "id": "blueberry-muffin",
-      "description": "Fresh blueberry muffin",
-      "imageUrl": "https://picsum.photos/seed/muffin/600/400",
-      "imageHint": "blueberry muffin"
+      "id": "burger-premium",
+      "description": "Gourmet burger with fresh ingredients",
+      "imageUrl": "https://picsum.photos/seed/burger/600/400",
+      "imageHint": "gourmet burger"
+    },
+    {
+      "id": "shake-deluxe",
+      "description": "Creamy chocolate milkshake",
+      "imageUrl": "https://picsum.photos/seed/shake/600/400",
+      "imageHint": "chocolate milkshake"
+    },
+    {
+      "id": "cookies-fresh",
+      "description": "Assorted fresh baked cookies",
+      "imageUrl": "https://picsum.photos/seed/cookies/600/400",
+      "imageHint": "chocolate cookies"
     },
     {
       "id": "bakery-exterior",
