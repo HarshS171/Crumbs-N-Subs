@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   keywords: ['Bakery Jalandhar', 'Birthday Cakes Jalandhar', 'Anniversary Cakes Punjab', 'Gourmet Subs Jalandhar', 'Bulk Food Orders Jalandhar', 'Model Town Bakery'],
 };
 
+import Script from 'next/script';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,6 +25,17 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased min-h-screen flex flex-col">
+        {/* Google Analytics */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-ZQ1GDMB3CX" />
+        <Script strategy="afterInteractive" id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZQ1GDMB3CX');
+          `}
+        </Script>
+        
         {children}
         <WhatsAppButton />
         <Toaster />
