@@ -3,8 +3,8 @@
   "placeholderImages": [
     {
       "id": "hero-bakery",
-      "description": "Warm rustic bakery interior in Jalandhar",
-      "imageUrl": "https://picsum.photos/seed/bakery_premium_bg/1920/1080",
+      "description": "Premium 3D-rendered bakery interior with stunning lighting",
+      "imageUrl": "https://picsum.photos/seed/bakery_3d_luxe/1920/1080",
       "imageHint": "bakery interior"
     },
     {
