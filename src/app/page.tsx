@@ -24,9 +24,9 @@ export default function Home() {
         <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
           <Image
             src={heroImage}
-            alt="Crumbs N Subs Jalandhar"
+            alt="Crumbs N Subs Jalandhar Bakery"
             fill
-            className="object-cover brightness-[0.55]"
+            className="object-cover brightness-[0.45] transition-all duration-1000"
             priority
             data-ai-hint="bakery interior"
           />
@@ -122,8 +122,8 @@ export default function Home() {
         <section className="py-24 px-4">
           <div className="max-w-5xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center space-y-8 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-               <Wheat className="absolute -top-10 -left-10 h-64 w-64 rotate-12" />
-               <Wheat className="absolute -bottom-10 -right-10 h-64 w-64 -rotate-12" />
+               <WheatIcon className="absolute -top-10 -left-10 h-64 w-64 rotate-12" />
+               <WheatIcon className="absolute -bottom-10 -right-10 h-64 w-64 -rotate-12" />
             </div>
             <div className="relative z-10 space-y-6">
               <h2 className="text-3xl md:text-5xl font-headline font-bold text-white leading-tight">Join Jalandhar's Bread Club</h2>
@@ -149,7 +149,7 @@ export default function Home() {
   );
 }
 
-function Wheat(props: any) {
+function WheatIcon(props: any) {
   return (
     <svg
       {...props}
