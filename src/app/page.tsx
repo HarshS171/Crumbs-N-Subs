@@ -8,6 +8,7 @@ import { ReviewSection } from '@/components/ReviewSection';
 import { BakeryInfo } from '@/components/BakeryInfo';
 import { ProductCard } from '@/components/ProductCard';
 import { MenuCollage } from '@/components/MenuCollage';
+import { FAQSection } from '@/components/FAQSection';
 import { PRODUCTS } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -224,6 +225,7 @@ export default function Home() {
         {/* Info & Reviews */}
         <BakeryInfo />
         <ReviewSection />
+        <FAQSection />
         
         {/* Newsletter CTA */}
         <section className="py-32 px-4 relative overflow-hidden">
